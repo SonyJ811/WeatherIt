@@ -1,0 +1,164 @@
+body {
+    background-image:url(assets/bg.jpg);
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #003C8B;
+    height: 1vh;
+}
+.clouds{
+    background-image:url(assets/bg2.jpg);
+}
+.grid-container-navigation{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+}
+header{
+    grid-column: span 12;
+    padding: 2rem 3rem;
+}
+nav{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    
+}
+.logo-title{
+    grid-column: span 6;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 2rem;
+    text-align: right;
+    color: #006efe;
+}
+
+.nav-link{
+    grid-column: span 6;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.nav-link>a{
+    text-decoration: none;
+    padding-right: 1rem;
+}
+
+.grid-container-body{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+.intro-title{
+    grid-column: span 12;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 3rem;
+    color: #2483FF;
+    margin-top: 3rem;
+
+}
+.intro-text{
+    grid-column: span 12;
+    text-align: center;
+    margin: 0 2rem;
+    color: #003C8B;
+}
+
+.grid-container-formip{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.grid-container-formip>form{
+    grid-column: span 12;
+    text-align: center;
+}
+.grid-container-formip>form>input{
+    font-family: 'Montserrat', sans-serif;
+    margin: 5rem 0.4rem 0 0.4rem;
+    height: 2rem;
+}
+.ip{
+    width: 25%;
+    border: solid 1px #2483FF;
+    background: none;
+    font-size: 1rem;
+}
+
+.button{
+    width: 8%;
+    background-color: #2483FF;
+    color: #EEF2F8;
+    font-size: 1rem;
+    border: none;
+}
+::placeholder{
+    color: #EEF2F8;
+    opacity: 0.8;
+}
+
+.button:hover{
+    border: solid 1px #2483FF;
+    background: none;
+}
+
+.grid-container-formop{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 0.2fr);
+}
+.grid-container-formop>h2{
+    grid-column: span 12;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Shadows Into Light', cursive;
+    margin: 0;
+    letter-spacing: 0.2rem;
+    font-weight: 300;
+    color: #2483FF;
+}
+.icon{
+    grid-column: span 12;
+    text-align: center;
+}
+.others{
+    grid-column: span 12;
+    text-align: center;
+}
+.others>ul{
+    list-style: none;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    padding: 0;
+}
+li{
+    padding: 0.4rem 0;
+    grid-column: span 12;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    letter-spacing: 0.2rem;
+    font-weight: 800;
+    color: #2483FF;
+}
+
+.o-title{
+    padding-bottom:1.5rem ;
+    padding-top: 0;
+    font-size: 1.2rem;
+    font-weight: 800;
+    font-family: 'Shadows Into Light', cursive;
+    letter-spacing: 0.2rem;
+    color: #003C8B;
+    
+}
+.o-head{
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.1rem;
+    color: #003C8B;
+}
+
+footer{
+    padding: 4rem;
+    opacity: 0.5;
+    color: #003C8B;
+    position: fixed;
+    bottom: 0;
+}
